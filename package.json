@@ -1,7 +1,7 @@
 {
   "name": "vue-escpos",
   "version": "1.0.0",
-  "description": "基于node-escpos封装的适用于vue环境的打印组件",
+  "description": "基于node-escpos封装",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
