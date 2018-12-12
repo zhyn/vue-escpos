@@ -20,6 +20,7 @@ const receive = (data = {})=>{
             .print('\x1B\x44\x12\x19\x24\x00')
             .pureText('编码').control('HT').pureText('数量').control('HT').pureText('金额').control('LF')
             .pureText('GS-32').control('HT').pureText('5').control('HT').pureText('$120').control('LF')
+            .barcode('NIKE102948392109', 'CODE39')
             printer.cut();
             printer.close();
         });
